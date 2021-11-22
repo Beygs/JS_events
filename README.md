@@ -9,6 +9,8 @@
 
 Implémentation de plusieurs scripts js sur une page pour dompter le DOM avec js.
 
+## [Live Site](https://beygs.github.io/JS_events/)
+
 ## ToDo
 
 - [x] Script 1 (Console logs on footer click)
