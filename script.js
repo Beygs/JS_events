@@ -75,3 +75,14 @@ nextBtn.addEventListener('click', () => {
   cardCols[0].parentNode.insertBefore(cardCols[cardCols.length - 1], cardCols[0]);
 });
 
+// Fonctionnalité 8
+
+const prevBtn = document.querySelector('.jumbotron .btn-primary');
+
+prevBtn.addEventListener('click', e => {
+  e.preventDefault();
+  
+  const cardCols = document.querySelectorAll('.album .col-md-4');
+
+  cardCols[0].parentNode.appendChild(cardCols[0]);
+});
