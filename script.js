@@ -23,9 +23,21 @@ const cards = document.getElementsByClassName("card");
 
 cards[0]
   .querySelector(".btn-outline-secondary")
-  .addEventListener("click", (e) => {
+  .addEventListener("click", () => {
     cards[0].setAttribute("style", "color: red");
   });
 
 // Fonctionnalité 4
+
+cards[1]
+  .querySelector('.btn-outline-secondary')
+  .addEventListener('click', () => {
+    if (cards[1].getAttribute('style')) {
+      cards[1].removeAttribute('style');
+    } else {
+      cards[1].setAttribute('style', 'color: green');
+    }
+  });
+
+// Fonctionnalité 5
 
