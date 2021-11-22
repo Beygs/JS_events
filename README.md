@@ -12,7 +12,7 @@ Implémentation de plusieurs scripts js sur une page pour dompter le DOM avec js
 ## ToDo
 
 - [x] Script 1 (Console logs on footer click)
-- [ ] Script 2 (Hamburger menu toggler)
+- [x] Script 2 (Hamburger menu toggler)
 - [ ] Script 3 (Edit Card 1)
 - [ ] Script 4 (Edit Card 2)
 - [ ] Script 5 (☢)
