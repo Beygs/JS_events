@@ -52,3 +52,26 @@ header.addEventListener('dblclick', () => {
     head.appendChild(bootstrapCDN);
   }
 });
+
+// Fonctionnalité 6
+
+const reduced = document.createElement('style');
+reduced.innerText = '.reduced img {width: 20%} .reduced .card-text {display: none}';
+head.appendChild(reduced);
+
+[...cards].forEach(c => {
+  c.querySelector('.btn-success').addEventListener('mouseover', e => {
+    e.composedPath()[4].classList.toggle('reduced');
+  });
+});
+
+// Fonctionnalité 7
+
+const nextBtn = document.querySelector('.jumbotron .btn-secondary');
+
+nextBtn.addEventListener('click', () => {
+  const cardCols = document.querySelectorAll('.album .col-md-4');
+
+  cardCols[0].parentNode.insertBefore(cardCols[cardCols.length - 1], cardCols[0]);
+});
+
