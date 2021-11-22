@@ -41,3 +41,14 @@ cards[1]
 
 // Fonctionnalité 5
 
+const header = document.querySelector('header');
+const head = document.querySelector('head');
+const bootstrapCDN = head.querySelector('link');
+
+header.addEventListener('dblclick', () => {
+  if (head.contains(bootstrapCDN)) {
+    bootstrapCDN.remove();
+  } else {
+    head.appendChild(bootstrapCDN);
+  }
+});

@@ -15,7 +15,7 @@ Implémentation de plusieurs scripts js sur une page pour dompter le DOM avec js
 - [x] Script 2 (Hamburger menu toggler)
 - [x] Script 3 (Edit Card 1)
 - [x] Script 4 (Edit Card 2)
-- [ ] Script 5 (☢)
+- [x] Script 5 (☢)
 - [ ] Script 6 (View Madness)
 - [ ] Script 7 (Card Turn 1)
 - [ ] Script 8 (Card Turn 2)
