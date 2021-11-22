@@ -81,8 +81,29 @@ const prevBtn = document.querySelector('.jumbotron .btn-primary');
 
 prevBtn.addEventListener('click', e => {
   e.preventDefault();
-  
+
   const cardCols = document.querySelectorAll('.album .col-md-4');
 
   cardCols[0].parentNode.appendChild(cardCols[0]);
 });
+
+// Fonctionnalité 9
+
+const logo = document.querySelector('.navbar-brand');
+
+logo.addEventListener('keypress', e => {
+  switch (e.key) {
+    case 'a':
+      document.body.classList = 'col-4';
+      break;
+    case 'y':
+      document.body.classList = 'col-4 offset-4';
+      break;
+    case 'p':
+      document.body.classList = 'col-4 offset-8';
+      break;
+    case 'b':
+      document.body.classList = '';
+      break;
+  }
+})

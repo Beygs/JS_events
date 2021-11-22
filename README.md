@@ -19,7 +19,7 @@ Implémentation de plusieurs scripts js sur une page pour dompter le DOM avec js
 - [x] Script 6 (View Madness)
 - [x] Script 7 (Card Turn 1)
 - [x] Script 8 (Card Turn 2)
-- [ ] Script 9 (Page Madness)
+- [x] Script 9 (Page Madness)
  
 ## Crédits et remerciements
 
