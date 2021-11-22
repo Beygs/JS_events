@@ -3,7 +3,18 @@
 const footer = document.querySelector("footer");
 
 footer.addEventListener("click", (e) => {
-  console.group("👆 Clique");
+  console.groupCollapsed(
+    "%c 👆 Clique ici !",
+    `color: hsl(${Math.floor(Math.random() * 360)}, 50%, 50%);
+    font-size: 20px;
+    font-family: sans-serif`
+  );
+  console.log(
+    '%c+',
+    `line-height: 200px;
+    padding: 0 90px;
+    background: url("https://media3.giphy.com/media/Od0QRnzwRBYmDU3eEO/200w.gif");`
+  );
   console.count("Clic numéro");
   console.groupEnd();
 });
